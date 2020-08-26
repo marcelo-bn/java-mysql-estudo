@@ -3,10 +3,12 @@ import db.ConnectionFactory;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.ResultSet;
 
 public class Main {
 
     public static void main(String[] args) {
+
         Connection conexao = ConnectionFactory.getDBConnection();
 
         String sql = "DELETE *FROM cursos WHERE id = 10";
@@ -19,5 +21,13 @@ public class Main {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+
     }
 }
+
+
+
+
+
+
