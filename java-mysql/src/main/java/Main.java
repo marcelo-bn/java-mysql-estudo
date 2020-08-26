@@ -11,7 +11,7 @@ public class Main {
 
         Connection conexao = ConnectionFactory.getDBConnection();
 
-        String sql = "DELETE *FROM cursos WHERE id = 10";
+        String sql = "DELETE FROM cursos WHERE idcurso = 10";
 
         PreparedStatement stmt = null;
         try {
