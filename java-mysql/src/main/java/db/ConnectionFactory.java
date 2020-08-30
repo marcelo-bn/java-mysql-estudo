@@ -21,7 +21,7 @@ public abstract class ConnectionFactory {
 
         String host = "localhost";
         String port = "3306";
-        String dbname = "cadastro";
+        String dbname = "curso_java";
 
         String url = "jdbc:mysql://" + host + ":" + port + "/" + dbname;
 
