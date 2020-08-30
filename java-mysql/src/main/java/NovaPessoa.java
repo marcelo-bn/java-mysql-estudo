@@ -13,7 +13,6 @@ public class NovaPessoa {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Informe um nome:");
         String nome = teclado.nextLine();
-        System.out.println(nome);
 
         String sql = "INSERT INTO pessoa (nome) VALUES (?)";
 
