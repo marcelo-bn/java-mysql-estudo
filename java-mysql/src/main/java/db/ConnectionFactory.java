@@ -16,7 +16,7 @@ public abstract class ConnectionFactory {
         Properties properties = new Properties();
 
         properties.setProperty("user", "root");
-        properties.setProperty("password", "root");
+        properties.setProperty("password", "marcelomac");
         properties.setProperty("useSSL", "false");
 
         String host = "localhost";
