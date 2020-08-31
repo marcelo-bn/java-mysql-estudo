@@ -1,5 +1,6 @@
 import db.ConnectionFactory;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,7 +11,7 @@ import java.util.Scanner;
 
 public class ConsultarPessoas2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Connection conexao = ConnectionFactory.getDBConnection();
 
         String sql = "SELECT * FROM pessoa WHERE nome like ?";

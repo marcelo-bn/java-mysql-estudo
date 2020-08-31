@@ -1,5 +1,6 @@
 import db.ConnectionFactory;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 
 public class AtualizarRegistro {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Connection conexao = ConnectionFactory.getDBConnection();
 
         Scanner teclado = new Scanner(System.in);

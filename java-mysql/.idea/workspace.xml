@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40e97a1a-608b-4eb3-a88f-9c05e50f0923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExcluirPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conexao.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AtualizarRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AtualizarRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConsultarPessoas1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConsultarPessoas1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConsultarPessoas2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConsultarPessoas2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CriarTabelaPessoas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CriarTabelaPessoas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExcluirPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExcluirPessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NovaPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NovaPessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/ConnectionFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -48,29 +55,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/ConnectionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/34e3ac94-4132-405e-ae15-5f37de78bceb/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="271">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ExcluirPessoa.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConsultarPessoas1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="260">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conexao.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -92,21 +102,22 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CriarTabelaPessoas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/db/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pessoa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ConsultarPessoas1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ConsultarPessoas2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NovaPessoa.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/34e3ac94-4132-405e-ae15-5f37de78bceb/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/AtualizarRegistro.java" />
+        <option value="$PROJECT_DIR$/src/conexao.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ConsultarPessoas1.java" />
         <option value="$PROJECT_DIR$/src/main/java/ExcluirPessoa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NovaPessoa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AtualizarRegistro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CriarTabelaPessoas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ConsultarPessoas2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/ConnectionFactory.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1189" />
-    <option name="y" value="23" />
+    <option name="x" value="-1530" />
+    <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="989" />
   </component>
@@ -118,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -163,14 +175,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598835910233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598882208574" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -188,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcluirPessoa">
+  <component name="RunManager" selected="Application.ConsultarPessoas1">
     <configuration name="AtualizarRegistro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AtualizarRegistro" />
       <module name="eng.eng-telecom.main" />
@@ -226,9 +237,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExcluirPessoa" />
-        <item itemvalue="Application.AtualizarRegistro" />
         <item itemvalue="Application.ConsultarPessoas1" />
+        <item itemvalue="Application.AtualizarRegistro" />
+        <item itemvalue="Application.ExcluirPessoa" />
         <item itemvalue="Application.NovaPessoa" />
         <item itemvalue="Application.ConsultarPessoas2" />
       </list>
@@ -255,6 +266,8 @@
       <workItem from="1598828496712" duration="421000" />
       <workItem from="1598828936679" duration="449000" />
       <workItem from="1598834929445" duration="1368000" />
+      <workItem from="1598877927569" duration="405000" />
+      <workItem from="1598880852943" duration="1142000" />
     </task>
     <task id="LOCAL-00001" summary="Novos testes">
       <created>1598449910823</created>
@@ -288,13 +301,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12004000" />
+    <option name="totallyTimeSpent" value="13551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1189" y="23" width="1920" height="989" extended-state="0" />
+    <frame x="-1239" y="23" width="1920" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1341853" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14323749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -312,7 +325,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.35340023" />
@@ -350,16 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CriarTabelaPessoas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pessoa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -377,20 +380,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NovaPessoa.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/34e3ac94-4132-405e-ae15-5f37de78bceb/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExcluirPessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConsultarPessoas2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NovaPessoa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="261">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CriarTabelaPessoas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -399,8 +419,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AtualizarRegistro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConsultarPessoas2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conexao.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -409,32 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConsultarPessoas1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/34e3ac94-4132-405e-ae15-5f37de78bceb/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExcluirPessoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="260">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

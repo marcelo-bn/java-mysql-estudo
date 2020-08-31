@@ -1,12 +1,13 @@
 import db.ConnectionFactory;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class ExcluirPessoa {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Connection cnx = ConnectionFactory.getDBConnection();
         String sql = "DELETE FROM pessoa WHERE codigo = ?";
         int id = 4;
