@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 
 import modelo.basico.Usuario;
 
-public class NovoUsuario {
+public class AlterarUsuario1 {
 	
 	public static void main(String[] args) {
 		
@@ -14,10 +14,11 @@ public class NovoUsuario {
 				.createEntityManagerFactory("estudo-jpa");
 		EntityManager em = emf.createEntityManager();
 		
-		Usuario novoUsuario = new Usuario("Maria","email@email");
-		
 		em.getTransaction().begin();
-		em.persist(novoUsuario);
+		Usuario usuario = em.find(Usuario.class, 3L);
+		usuario.setNome("Carla Silva");
+		usuario.setEmail("carlasilva@gmail.com");
+		em.merge(usuario);
 		em.getTransaction().commit();
 		
 		em.close();
