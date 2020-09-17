@@ -69,5 +69,9 @@ public class DAO<E> {
 		em.close();
 	}
 	
+	public E obterPorId(Object id) {
+		return em.find(classe, id);
+	}
+	
 	
 }
